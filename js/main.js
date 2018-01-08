@@ -10,6 +10,8 @@ $(document).ready(function() {
   }, 800);
 
   $("#btn-login").on("click", function() {
+    var newPassword = $("#password").val();
+    sessionStorage.setItem("mypassword", newPassword);
     var r = /(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])/g;
     var m = /^[a-z0-9_-]+@[a-z0-9-]+\.[a-z]{2,6}$/i;
     if ($("#email").val() == "" || $("#password").val() == "") {
