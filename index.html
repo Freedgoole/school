@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapeer-form">
+            <ul class="header-tabs">
+                <li class="header-tabs_item header-tabs_lgn" data-tab="tab-1">Login</li>
+                <li class="header-tabs_item header-tabs_rgstr" data-tab="tab-2">registration</li>
+            </ul>
+            <div class="input-wrapper">
+                <div class="input-form current" id="tab-1">
+                    <label for="email">
+                        <span class="label-span">Email</span>
+                        <input type="email" class="input" id="email">
+                    </label>
+                    <label for="password">
+                        <span class="label-span">Password</span>
+                        <input type="password" class="input" id="password">
+                    </label>
+                    <button id="btn-login" class="btn">LOGIN</button>
+                </div>
+                <div class="input-form" id="tab-2">
+                    <label for="name-rgstr">
+                        <span class="label-span">Name</span>
+                        <input type="text" class="input" id="name-rgstr">
+                    </label>
+                    <label for="email-rgstr">
+                        <span class="label-span">Email</span>
+                        <input type="email" class="input" id="email-rgstr">
+                    </label>
+                    <label for="password-rgstr">
+                        <span class="label-span">Password</span>
+                        <input type="password" class="input" id="password-rgstr">
+                    </label>
+                    <label for="password-rgstr_config">
+                        <span class="label-span">Confirm password</span>
+                        <input type="password" class="input" id="password-rgstr_config">
+                    </label>
+                    <button id="btn-rgstr" class="btn">REGISTRATION</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

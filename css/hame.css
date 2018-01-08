@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+header {
+    height: 60px;
+    background-color: #343434;
+    padding: 0 10em;
+}
+
+body {
+    background-color: #16a085;
+}
+.input-form_verification {
+    background-color: aquamarine;
+    display: flex;
+    width: 40%;
+    margin: 2em auto;
+    padding: 1em;
+    flex-direction: column;
+    opacity: 0;
+}
+.input {
+    font-size: 14px;
+    padding: 7px 4px;
+    border: 1px solid #919191;
+    font-weight: 400;
+    line-height: 20px;
+    color: #343434;
+    border-radius: 1px;
+    width: 100%;
+    outline-style: none;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+.span-verification {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+.label-span {
+    color: #919191;
+    font-weight: 400; 
+}
+.btn {
+    background-color: #d74da5;
+    padding: 15px 20px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+}
+.btn:hover {
+    background-color: #d169ab;
+}
+.btn-veridication {
+    width: 100%;
+}
+.span-header {
+    opacity: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+    color: aliceblue;
+    text-align: right;
+}
+.task {
+    width: 50%;
+    margin: 2em auto;
+}
+.card-task {
+    margin-bottom: 1em;
+    padding: 5px;
+    background-color: aliceblue;
+}
+.card-task h3 {
+    
+    font-weight: 900;
+}
